@@ -1,6 +1,6 @@
 import readline from "readline-sync";
 
-interface Content {
+export interface Content {
   searchTerm: string;
   prefix: string;
 }
